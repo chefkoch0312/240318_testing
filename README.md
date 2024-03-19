@@ -1,10 +1,19 @@
 # 240318_testing
 ein wenig mit nextjs herumspielen
 
-## npm run dev
+## runterladen/installieren
+git clone https://github.com/chefkoch0312/240318_testing.git
+
+## init
+git install
+
+## starten
+npm run dev
 
 ## zusätzlich benötigt: json-server
 
-### npm install json-server -g
+### install
+npm install json-server -g
 
-### npx json-server --watch --port 4000 ./_data/db.json
+### starten
+npx json-server --watch --port 4000 ./_data/db.json
