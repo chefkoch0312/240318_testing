@@ -4,8 +4,11 @@ ein wenig mit nextjs herumspielen
 ## runterladen/installieren
 git clone https://github.com/chefkoch0312/240318_testing.git
 
+## ins passende Verzeichnis wechseln
+cd 240318_testing
+
 ## init
-git install
+npm install
 
 ## starten
 npm run dev
