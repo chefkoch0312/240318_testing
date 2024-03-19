@@ -5,7 +5,7 @@ ein wenig mit nextjs herumspielen
 git clone https://github.com/chefkoch0312/240318_testing.git
 
 ## init
-git install
+npm install
 
 ## starten
 npm run dev
