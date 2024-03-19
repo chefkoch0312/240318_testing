@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.myHeader {
+    border-bottom: 1px black solid;
+    height: 85px;
+    background-color: rgba(125, 72, 250, 0.59);
+}
+
+.myContent {
+    padding: 0 10px 10px 10px;
+}
+
+.myFooter {
+    border-top: 1px black solid;
+    height: 50px;
+    background-color: rgb(200, 200, 200);
+    font-size: x-small;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}

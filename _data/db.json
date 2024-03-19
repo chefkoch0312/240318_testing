@@ -1,0 +1,54 @@
+{
+    "posts": [
+        {
+            "id": "1",
+            "title": "ein beispiel....",
+            "content": "Beispiel-Inhalt",
+            "views": 100
+        },
+        {
+            "id": "2",
+            "title": "noch ein beispiel",
+            "content": "noch ein Beispielinhalt",
+            "views": 200
+        },
+        {
+            "id": "3",
+            "title": "ein weiteres beispiel",
+            "content": "ganz genau, ein weiteres beispiel für inhalt",
+            "views": 100
+        },
+        {
+            "id": "4",
+            "title": "na, rate mal :)",
+            "content": "zu guter letzt,... gibt es dann noch ein beispiel für inhalt",
+            "views": 200
+        }
+    ],
+    "comments": [
+        {
+            "id": "1",
+            "text": "a comment about post 1",
+            "postId": "1"
+        },
+        {
+            "id": "2",
+            "text": "another comment about post 1",
+            "postId": "1"
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    },
+    "user": [
+        {
+            "name": "petra musterfrau"
+        },
+        {
+            "name": "peter musterman"
+        },
+        {
+            "name": "irgendwer anders"
+        }
+    ]
+}
