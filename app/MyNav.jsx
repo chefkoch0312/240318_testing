@@ -8,6 +8,7 @@ export default function MyNav() {
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/posts">Posts</Link></li>
                 {/* <li><Link href="/posts/post/3">Post mit ID (3)</Link></li> */}
+                <li><Link href="/posts/post/create">Post-Eintrag hinzufügen</Link></li>
                 <li><Link href="/aboutus">Über uns</Link></li>
             </ul>
         </nav>

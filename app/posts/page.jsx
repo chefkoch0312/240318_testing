@@ -3,7 +3,13 @@ import Link from 'next/link'
 import styles from '/app/page.module.css'
 
 async function getData() {
-    const res = await fetch('http://localhost:4000/posts/');
+    // await new Promise(resolve => setTimeout(resolve, 2000));
+
+    const res = await fetch('http://localhost:4000/posts/', {
+        next: {
+            revalidate: 0
+        }
+    });
     if (!res.ok) {
         throw new Error('Failed to fetch data')
     }
